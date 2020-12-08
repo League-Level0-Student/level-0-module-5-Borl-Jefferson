@@ -11,6 +11,9 @@ public static void main(String[] args) {
 	int e = 7;
 	int k = 0;
 	int m = 0;
+	int n = 3;
+	int o = 1;
+	int p = 1;
 	for (int i = 0; i <100; i++) {
 		a = a + b;
 		System.out.println(a);
@@ -61,7 +64,41 @@ break;
 			if (m > 3) {
 				break;
 			}
+			
+			
 		}
+	
+	
+		//*	JOptionPane.showMessageDialog(null, "1   2   3 \n" + "4   5   6 \n" + "7   8   9");
+	
+for (int i = 0; i < 3; i++) {
+	for (int j = 0; j < 3; j++) {
+		
+	
+		 
+	
+	
+	System.out.println(a+ " " + j);	
+	}
+	a = a + b;
+	
+}
+
+for (int x = 1; x <8; x+=3) {
+	for (int y = 2; y <9; y+=3) {
+	for (int z = 3; z < 10; z++) {
+		
+	System.out.println(x + " " + y + " " + z);
+	}
+}
+}
+
+					
+		
+			
+			
+			
+			
 		
 		
 		
@@ -71,6 +108,17 @@ break;
 		
 		
 		
+		
+
+
+
+
+
+
+
+
+
+
 		
 		
 		
