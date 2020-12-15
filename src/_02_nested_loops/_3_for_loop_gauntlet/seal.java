@@ -14,6 +14,7 @@ public static void main(String[] args) {
 	int n = 3;
 	int o = 1;
 	int p = 1;
+	int q = 2;
 	for (int i = 0; i <100; i++) {
 		a = a + b;
 		System.out.println(a);
@@ -46,7 +47,7 @@ public static void main(String[] args) {
 			break;	
 			}
 		}
-		for (int i = 0; i < 9999; i++) {
+		/*for (int i = 0; i < 9999; i++) {
 String f = 			JOptionPane.showInputDialog("wut is ur age");
 int g = Integer.parseInt(f);
 int h = 2020 -g;
@@ -58,7 +59,7 @@ break;
 			k = k + 1;
 			if (k > 3) {
 				m = m + 1;
-			k =	k = 0;
+			k = 0;
 				
 			}
 			if (m > 3) {
@@ -67,42 +68,48 @@ break;
 			
 			
 		}
+	*/
 	
-	
-		//*	JOptionPane.showMessageDialog(null, "1   2   3 \n" + "4   5   6 \n" + "7   8   9");
-	
-for (int i = 0; i < 3; i++) {
-	for (int j = 0; j < 3; j++) {
+		//JOptionPane.showMessageDialog(null, "1   2   3 \n" + "4   5   6 \n" + "7   8   9");
 		
-	
-		 
-	
-	
-	System.out.println(a+ " " + j);	
-	}
-	a = a + b;
-	
-}
-
-for (int x = 1; x <8; x+=3) {
-	for (int y = 2; y <9; y+=3) {
-	for (int z = 3; z < 10; z++) {
-		
-	System.out.println(x + " " + y + " " + z);
-	}
-}
-}
-
+		for (int i = 0; i < 3; i++) {
+			for (int j = 0; j < 3; j++) {
+				
+			
+				 
+			
+			
+			System.out.println(a+ " " + j);	
+			}
+			a = a + b;
+			
+		}
+		for (int i = 1; i < 8; i+= 3) {
+			System.out.print(i);
+			for (int j = i+1; j < i+3; j++) {
+				System.out.print( " " + j );
+			}
+			System.out.println();
+		}
+			
 					
+					for (int i = 1; i < 100; i+=10) {
+						System.out.print(i + " ");
+						for (int j = i+1; j < i+10; j++) {
+							System.out.print(j+ " ");
+						}
+						System.out.println();
+					}
+				
 		
-			
-			
-			
-			
 		
-		
-		
-		
+		for (int i = 0; i <6 ; i++) {
+			System.out.print(i);    //turn i into asterisks
+			for (int j = i-1; j > 1; j--) {
+				System.out.print(j);  //turn j into asterisks
+			}
+			System.out.println();
+		}
 		
 		
 		
@@ -124,38 +131,39 @@ for (int x = 1; x <8; x+=3) {
 		
 		
 		
-	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 	
 	
 	
 }
+}
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
 
