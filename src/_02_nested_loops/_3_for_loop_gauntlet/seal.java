@@ -104,9 +104,9 @@ break;
 		
 		
 		for (int i = 0; i <6 ; i++) {
-			System.out.print(i);    //turn i into asterisks
-			for (int j = i-1; j > 1; j--) {
-				System.out.print(j);  //turn j into asterisks
+			System.out.print("*");   
+			for (int j = i+1; j > 1; j--) {
+				System.out.print("*"); 
 			}
 			System.out.println();
 		}
