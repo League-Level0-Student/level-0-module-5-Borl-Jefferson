@@ -14,10 +14,23 @@ public class Code4Life {
 	 * If you are not sure, ask your teacher 
 	 * *****************/
 	static boolean canPlaySounds = true;
+	public static void main(String[] args) {
+		
 	
 	
 	// 1. Ask the user how many hours they spent coding this week.
-
+String a = JOptionPane.showInputDialog("how many hours have you coded this week?");
+int b = Integer.parseInt(a);
+if (b ==2 ) {
+	JOptionPane.showMessageDialog(null, "stop watching youtube and code");
+}
+if (b == 3-5) {
+	JOptionPane.showMessageDialog(null, "you are a code ninja");
+}
+if (b>5) {
+	playBatmanTheme();
+	displayBatman();
+}
 	// 2. If it is less than or equal to 2, tell them to stop watching YouTube and
 	// write code instead.
 
@@ -26,7 +39,7 @@ public class Code4Life {
 
 	// 4. If it is more than 5, call the playBatmanTheme  method, then 
 	//    call the displayBatman method.
-
+	}
 
 
 	
@@ -52,6 +65,11 @@ public class Code4Life {
 				System.out.println("File does not exist");
 			}
 		}
+		
+		
+		
+		
+		
 	}
 	
 	private static void displayBatman() {		
